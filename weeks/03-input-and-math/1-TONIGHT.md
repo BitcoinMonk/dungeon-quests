@@ -1,5 +1,9 @@
 # Week 3 · Input and Math — Tonight's lesson
 
+**Get there:** from the main folder, type `cd weeks/03-input-and-math`
+
+**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-03`
+
 **Together with your mentor, about 60 minutes.** You drive the keyboard.
 
 ## Tonight's idea
@@ -50,4 +54,4 @@ Make the shop ask for the player's name at the start and greet them by name, usi
 ## Mentor notes
 - The `input`-gives-a-string idea trips everyone up. The error from step 3.1 is the best teacher, so let him read it fully.
 - `//` and `%` are worth the time: they come back in puzzles all the time.
-- **Ready check:** *From a blank file, write a program that asks for a number, does maths with it, and prints the result in an f-string.*
+- **Ready check:** *From a blank file, write a program that asks for a number, does math with it, and prints the result in an f-string.*

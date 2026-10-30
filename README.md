@@ -13,13 +13,14 @@ Every week has its own folder in `weeks/`. Inside each one:
 | **`2-THIS-WEEK.md`** | Quests to do **on your own** during the week. One or two a day is plenty. |
 | `.py` files | The code the lesson and quests use. |
 
+You save your work with Git and hand in each week as a pull request: **[GIT.md](GIT.md)** has every command.
 Track where you are in **[PROGRESS.md](PROGRESS.md)**. Mentors: start with **[MENTOR.md](MENTOR.md)**.
 
 ## The rules
 
-1. **One week at a time.** Don't open next week's folder until your mentor signs off this one in PROGRESS.md. Finished early? Do the ⭐ stretch quests.
+1. **One week at a time.** Don't open next week's folder until this week's pull request is merged. Finished early? Do the ⭐ stretch quests.
 2. **Type it yourself.** Don't copy and paste code. Your fingers learn too.
-3. **Predict before you run.** Every time. Say or write what you think will happen, *then* press play.
+3. **Predict before you run.** Every time. Say or write what you think will happen, *then* run it.
 4. **Errors are clues, not failures.** Read the last line of the error and find the line number it points to.
 5. **AI is a tutor, not a typist.** Ask it to explain things or give you a hint. Never ask it to write your code. A good question: *"Don't give me the code. Give me a hint about why this doesn't work:"* and paste your code.
 6. **Stuck for 20 minutes?** Write down what you tried, move on to the next quest, and bring it to your next evening.
@@ -35,18 +36,49 @@ Track where you are in **[PROGRESS.md](PROGRESS.md)**. Mentors: start with **[ME
 
 Keep a **notebook** (paper is great) for predictions, maps and things you got stuck on.
 
+## Running your code
+
+You run everything from the **terminal** at the bottom of VS Code. Open it with **Terminal → New Terminal**. It starts in the main `dungeon-quests` folder.
+
+1. Go into a week's folder with `cd` ("change directory"):
+   ```
+   cd weeks/01-the-dungeon
+   ```
+2. Run a file by typing `python` and the file's name:
+   ```
+   python dungeon.py
+   ```
+3. To switch to a different week, go back up to the main folder first (`..` means "the folder above"), then into the new week:
+   ```
+   cd ../..
+   cd weeks/02-variables
+   ```
+
+Tips:
+- Type part of a name, like `cd weeks/02`, and press **Tab**. The terminal finishes it for you.
+- `ls` lists the files in the folder you're in.
+- Press **↑** to bring back your last command, so you don't have to retype `python hero.py` every time.
+- A program stuck in a loop? Click in the terminal and press **Ctrl+C**.
+- On a Mac, type `python3` instead of `python`.
+
 ## Checking a 🧩 puzzle answer
 
-Open `check.py` and press the ▶ play button. It asks for the quest number (like `2.5`) and your answer.
+`check.py` lives in the main folder. From inside a week's folder, run:
+```
+python ../../check.py
+```
+It asks for the quest number (like `2.5`) and your answer.
 
-## Setup (do this in week 1 with your mentor)
+## Getting the project (week 1, with your mentor)
 
-1. Install **Python** from [python.org/downloads](https://www.python.org/downloads/). On Windows, tick **"Add python.exe to PATH"** on the first screen.
-2. Install **VS Code** from [code.visualstudio.com](https://code.visualstudio.com/).
-3. Install **Git** from [git-scm.com](https://git-scm.com/downloads).
-4. Open a terminal and download this project (your mentor has the link):
+1. Open a terminal and download the project:
    ```
-   git clone <link to this repo>
+   git clone https://github.com/BitcoinMonk/dungeon-quests.git
    ```
-5. In VS Code: **File → Open Folder…** and pick the `dungeon-quests` folder. If it asks to install the **Python extension**, say yes.
-6. Open `weeks/01-the-dungeon/dungeon.py` and press ▶ at the top right. If a game starts, you're ready.
+2. In VS Code: **File → Open Folder…** and pick the `dungeon-quests` folder. If it asks to install the **Python extension**, say yes.
+3. Open the terminal (**Terminal → New Terminal**) and type:
+   ```
+   cd weeks/01-the-dungeon
+   python dungeon.py
+   ```
+   If a game starts, you're ready.

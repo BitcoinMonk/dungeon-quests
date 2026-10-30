@@ -1,5 +1,9 @@
 # Week 3 · Input and Math — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/03-input-and-math`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "3.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 
 ---
@@ -42,3 +46,9 @@ Then make up stats from the answers, like `health = age * 3` or `luck = age % 7`
 ### ⭐ Stretch
 - What does `input()` give you if the player just presses Enter without typing anything? Find out.
 - Add a "discount": if the player buys potions, they get 3 gold back. Print the final gold.
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

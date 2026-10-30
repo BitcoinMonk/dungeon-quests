@@ -1,5 +1,9 @@
 # Week 2 · Variables — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/02-variables`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "2.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 
 ---
@@ -56,3 +60,9 @@ Bonus: work out a variable `power = health + strength * 2` and print it too.
 
 ### ⭐ Stretch
 - What does `print(7 / 2)` show? What about `print(7 // 2)` and `print(7 % 2)`? Try to work out what `//` and `%` do. (You'll use them next week.)
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

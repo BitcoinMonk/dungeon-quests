@@ -1,5 +1,9 @@
 # Week 14 · Your Dungeon: Design — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/14-your-dungeon-design`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "14.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Work in `my_dungeon.py`. Do the steps in order and **run your game after every change**.
 Change `[ ]` to `[x]` when a step works.
 
@@ -31,3 +35,9 @@ Fix as many as you can.
 ### ⭐ Stretch
 - Add a `help` command that lists all the commands.
 - Show the exits automatically whenever you enter a room.
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

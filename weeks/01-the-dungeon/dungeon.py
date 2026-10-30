@@ -1,5 +1,5 @@
 # DUNGEON QUEST
-# Press the play button (top right of VS Code) to run this game.
+# To play, type this in the terminal from this folder: python dungeon.py
 # You don't need to understand this code yet. By week 11 you'll be able to read all of it.
 
 # The map: every room has a description, exits to other rooms, and maybe an item.

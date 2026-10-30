@@ -1,10 +1,14 @@
 # Week 2 · Variables — Tonight's lesson
 
+**Get there:** from the main folder, type `cd weeks/02-variables`
+
+**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-02`
+
 **Together with your mentor, about 60 minutes.** You drive the keyboard.
 
 ## Tonight's idea
 
-A **variable** is a name with a value stuck to it, like a labelled box.
+A **variable** is a name with a value stuck to it, like a labeled box.
 `gold = 5` means: "make a box called `gold` and put 5 in it."
 Games are full of variables: health, gold, score, level.
 
@@ -15,7 +19,7 @@ Open `hero.py`. **Don't run it yet.**
 On paper, write what you think every line of output will be, in order.
 
 ### 2. Run (5 min)
-Press ▶. Compare with your paper. Circle anything you got wrong and talk about why.
+Run it with `python hero.py`. Compare with your paper. Circle anything you got wrong and talk about why.
 
 ### 3. Investigate (15 min)
 Answer these out loud with your mentor:
@@ -42,7 +46,7 @@ Read through `2-THIS-WEEK.md` together.
 | Word | Meaning |
 |---|---|
 | **variable** | A name that holds a value: `gold = 5`. |
-| **`=`** | "Put the right side into the left side." Not "equals" like in maths. |
+| **`=`** | "Put the right side into the left side." Not "equals" like in math class. |
 | **integer** | A whole number: `20`. No quotes. |
 | **string** | Text: `"Grimble"`. Always in quotes. |
 | `+  -  *  /` | Add, subtract, multiply, divide. |
@@ -50,6 +54,7 @@ Read through `2-THIS-WEEK.md` together.
 ---
 
 ## Mentor notes
+- **First pull request.** If he couldn't open his week 1 PR alone, do it together at the start: `git push`, then **Compare & pull request** on GitHub. Look at **Files changed** together; that's his whole week, line by line.
 - The big misconception this week is reading `=` as "is equal to". Keep saying "put into".
 - If he mixes up `print("name")` and `print(name)`, that's the lesson working. Let him find it.
 - **Ready check:** *Explain what `gold = gold + 10` does in his own words, and write a 3-line program from a blank file that makes a variable, changes it, and prints it.*

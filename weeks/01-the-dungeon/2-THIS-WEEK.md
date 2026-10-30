@@ -1,5 +1,9 @@
 # Week 1 · The Dungeon — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/01-the-dungeon`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "1.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 Everything this week happens in `dungeon.py`.
 
@@ -35,11 +39,22 @@ Try each of these, one at a time. Run, read the error, write in your notebook wh
 
 ### 1.7 🧩 The secret command
 There's a secret command hidden in the code that isn't in the list the game shows you. Find it by **reading the code**, then use it in the game. It gives you a number.
-Check your answer: open `check.py` (in the main folder), press ▶, enter quest `1.7` and the number.
+Check your answer: from this week's folder, run `python ../../check.py`, then enter quest `1.7` and the number.
 - [ ] Done
 
 ---
 
-### ⭐ Stretch (only if everything else is done)
-- Add a brand new line of story that prints when you win.
-- Change the sword into a different weapon. Careful: the code checks for `"sword"` in more than one place.
+### ⭐ Stretch: build your own room (only if everything else is done)
+1. **Copy a room.** At the top of `dungeon.py`, every room is a block that starts with its name, like `"library": {`, and ends with `},`. Copy the whole armory block and paste it right under itself.
+2. **Make it yours.** Change the name (`"armory"` → something like `"kitchen"`) and write a new description.
+3. **Connect it.** Rooms connect through their `"exits"`. Add an exit from the hallway to your room (the hallway has no `"down"` yet, so use that), and change your room's exits so `"up"` leads back to `"hallway"`. Watch the commas and quotes; copy the pattern you see.
+4. **Walk there.** Run the game, go to the hallway, type `down`. If you get an error, read the line number it names.
+5. **Put something in it.** Change your room's `"item"` to something new and pick it up with `take`.
+
+Harder: make the hallway description hint that there's a way down.
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

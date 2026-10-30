@@ -1,5 +1,9 @@
 # Week 11 · The Map — Tonight's lesson
 
+**Get there:** from the main folder, type `cd weeks/11-the-map`
+
+**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-11`
+
 **Together with your mentor, about 75 minutes.** You drive the keyboard.
 
 ## Tonight's idea

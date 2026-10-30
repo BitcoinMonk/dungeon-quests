@@ -1,5 +1,9 @@
 # Bonus · Talk to a Server — Tonight's lesson
 
+**Get there:** from the main folder, type `cd weeks/bonus-talk-to-a-server`
+
+**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b bonus`
+
 **Together with your mentor, about 60 minutes.** Any time after week 10 (you need dictionaries).
 
 ## Tonight's idea

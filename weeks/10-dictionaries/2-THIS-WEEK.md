@@ -1,5 +1,9 @@
 # Week 10 · Dictionaries — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/10-dictionaries`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "10.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 
 ---
@@ -47,3 +51,9 @@ Loop over it and print a card for each monster. You'll use these monsters in you
 
 ### ⭐ Stretch
 - In `bestiary.py`: which monsters have more health than the average? Print their names.
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

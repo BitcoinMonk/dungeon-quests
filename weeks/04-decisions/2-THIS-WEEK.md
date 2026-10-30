@@ -1,5 +1,9 @@
 # Week 4 · Decisions — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/04-decisions`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "4.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 
 ---
@@ -50,3 +54,9 @@ Make it accept the answer in capitals too.
 
 ### ⭐ Stretch
 - Make `riddle.py` ask **three** riddles and keep a `score` variable. Print the score at the end.
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

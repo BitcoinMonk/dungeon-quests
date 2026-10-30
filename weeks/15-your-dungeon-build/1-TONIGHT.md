@@ -1,5 +1,9 @@
 # Week 15 · Your Dungeon: Build — Tonight's lesson
 
+**Get there:** from the main folder, type `cd weeks/14-your-dungeon-design`
+
+**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-15`
+
 **Together with your mentor, about 90 minutes.** You drive the keyboard.
 
 ## Tonight's idea

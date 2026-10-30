@@ -1,4 +1,4 @@
-# check.py: check a puzzle answer. Press the play button and answer the two questions.
+# check.py: check a puzzle answer. From a week's folder, run: python ../../check.py
 # The answers are scrambled (hashed) so you can't just read them here. Nice try, though.
 
 import hashlib
@@ -43,7 +43,7 @@ else:
     if fingerprint(quest, answer) == ANSWERS[quest]:
         print()
         print("  *** CORRECT! ***")
-        print("  Tick it off in 2-THIS-WEEK.md.")
+        print("  Mark it done in 2-THIS-WEEK.md.")
     else:
         print()
         print("  Not quite. Check your code and try again.")

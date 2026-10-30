@@ -1,5 +1,9 @@
 # Week 7 · For Loops — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/07-for-loops`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "7.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 
 ---
@@ -51,3 +55,9 @@ Each day, `strength` goes up by a random amount from 1 to 3. Print a line for ea
   ###
   ####
   ```
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

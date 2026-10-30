@@ -1,5 +1,9 @@
 # Week 13 · Functions in Action — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/13-functions-in-action`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "13.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 
 ---
@@ -59,3 +63,9 @@ Bring it to your next evening.
 
 ### ⭐ Stretch
 - Which **spell type** did the most damage in total across the whole log?
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

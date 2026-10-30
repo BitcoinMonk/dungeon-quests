@@ -1,5 +1,9 @@
 # Week 9 · Loot Files — Tonight's lesson
 
+**Get there:** from the main folder, type `cd weeks/09-loot-files`
+
+**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-09`
+
 **Together with your mentor, about 60 minutes.** You drive the keyboard.
 
 ## Tonight's idea
@@ -54,6 +58,6 @@ Read `2-THIS-WEEK.md`. Three puzzles use this file.
 ---
 
 ## Mentor notes
-- The file must be in the same folder as the code. The project's VS Code settings run each file from its own folder, so the ▶ button handles it. If he gets `FileNotFoundError`, check that the terminal's folder is right.
+- `open("loot.txt")` looks in the folder the terminal is in. `FileNotFoundError` means he isn't in `weeks/09-loot-files`; `cd` there and run it again.
 - The count-in-a-loop pattern is the single most reused idea in the rest of the course. Make sure he can write it without looking.
 - **Ready check:** *From a blank file, read `loot.txt` and count how many lines are "rat".*

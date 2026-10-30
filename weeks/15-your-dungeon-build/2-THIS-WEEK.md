@@ -1,5 +1,9 @@
 # Week 15 · Your Dungeon: Build — This week, on your own
 
+**Get there:** from the main folder, type `cd weeks/14-your-dungeon-design`
+
+**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "15.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+
 Keep working in `weeks/14-your-dungeon-design/my_dungeon.py`. Run your game after every change.
 Change `[ ]` to `[x]` when a step works.
 
@@ -35,3 +39,9 @@ Fix what you found in 15.5. Check every description for typos. Add a title scree
 ### ⭐ Stretch
 - Add a score: points for items found and monsters beaten, shown at the end.
 - Add a second monster.
+
+---
+
+## 📬 Hand it in
+Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Your mentor reviews it, and you merge it together at your next evening.

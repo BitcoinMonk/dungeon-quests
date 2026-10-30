@@ -1,5 +1,9 @@
 # Week 4 · Decisions — Tonight's lesson
 
+**Get there:** from the main folder, type `cd weeks/04-decisions`
+
+**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-04`
+
 **Together with your mentor, about 60 minutes.** You drive the keyboard.
 
 ## Tonight's idea
@@ -54,5 +58,5 @@ Try all four. Which one surprised you? Why did `Red` do that?
 ---
 
 ## Mentor notes
-- `=` vs `==` and indentation are the two classic bugs here. Make him hit both on purpose tonight so he recognises them later.
+- `=` vs `==` and indentation are the two classic bugs here. Make him hit both on purpose tonight so he recognizes them later.
 - **Ready check:** *From a blank file, write an `if / elif / else` that reacts to something the player types, with correct indentation, without looking.*

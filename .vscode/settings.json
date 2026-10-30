@@ -1,5 +1,4 @@
 {
-    // Run each file from its own folder, so open("loot.txt") finds the file next to it.
-    "python.terminal.executeInFileDir": true,
+    // Beginners forget to save before running from the terminal.
     "files.autoSave": "afterDelay"
 }

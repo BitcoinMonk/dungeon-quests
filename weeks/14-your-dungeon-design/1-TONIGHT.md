@@ -2,7 +2,7 @@
 
 **Get there:** from the main folder, type `cd weeks/14-your-dungeon-design`
 
-**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-14`
+**Start the week:** merge last week's pull request together, then `git checkout master`, `git pull`, `git checkout -b week-14`
 
 **Together with your mentor, about 90 minutes.** You drive the keyboard, and tonight you're also the boss.
 

@@ -2,7 +2,7 @@
 
 **Get there:** from the main folder, type `cd weeks/06-while-loops`
 
-**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-06`
+**Start the week:** merge last week's pull request together, then `git checkout master`, `git pull`, `git checkout -b week-06`
 
 **Together with your mentor, about 60 minutes.** You drive the keyboard.
 

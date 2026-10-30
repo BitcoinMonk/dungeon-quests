@@ -2,7 +2,7 @@
 
 **Get there:** from the main folder, type `cd weeks/09-loot-files`
 
-**Start the week:** merge last week's pull request together, then `git checkout main`, `git pull`, `git checkout -b week-09`
+**Start the week:** merge last week's pull request together, then `git checkout master`, `git pull`, `git checkout -b week-09`
 
 **Together with your mentor, about 60 minutes.** You drive the keyboard.
 

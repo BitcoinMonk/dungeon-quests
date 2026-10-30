@@ -5,6 +5,7 @@ Everything you need is already in the repo. Each week's `1-TONIGHT.md` is the le
 ## Once, before week 2
 
 He needs a GitHub account. On GitHub, open the repo's **Settings → Collaborators → Add people** and add his username so he can push branches. He accepts the invite from his email.
+A ruleset on `master` (**Settings → Rules**) means his work only gets in through a PR you approve. You're the admin, so you can still push course updates straight to `master`.
 
 ## Each week on GitHub
 
@@ -17,7 +18,7 @@ Before your evening, look over his PR on GitHub (**Files changed** tab) and leav
 2. **Ready check (5 min).** Ask the ready check at the bottom of **last** week's `1-TONIGHT.md`.
    - **Pass:** approve the PR and have him click **Merge**. The merge is the sign-off.
    - **Not yet:** leave the PR open and repeat the week on the same branch. Redo the lesson with new examples and do the ⭐ stretch quests. This is normal, not failure.
-3. **Start the new week (5 min).** The **Start the week** line at the top of the new `1-TONIGHT.md`: back to `main`, pull, new branch.
+3. **Start the new week (5 min).** The **Start the week** line at the top of the new `1-TONIGHT.md`: back to `master`, pull, new branch.
 4. **Tonight's lesson (60 min).** Follow the new week's `1-TONIGHT.md`. **He drives the keyboard.**
 5. **Look ahead (5 min).** Read the new `2-THIS-WEEK.md` together so he knows what's coming.
 
@@ -61,4 +62,4 @@ About 20–30 minutes a day, 4–5 days a week, is the right amount. His merged 
 
 ## Updating the course
 
-If you change the course files, push them to `main`. He gets them with `git pull` when he starts the next week.
+If you change the course files, push them to `master`. He gets them with `git pull` when he starts the next week.

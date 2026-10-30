@@ -15,7 +15,7 @@ git config --global push.autoSetupRemote true
 
 ### 1. Start the week (at your evening, after last week is merged)
 ```
-git checkout main
+git checkout master
 git pull
 git checkout -b week-02
 ```

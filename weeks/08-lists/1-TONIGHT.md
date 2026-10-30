@@ -8,7 +8,7 @@
 
 ## Tonight's idea
 
-So far each variable holds **one** thing. A **list** holds lots of things in one variable, in order:
+So far each of your variables has held **one** thing. A **list** holds lots of things in one variable, in order. The dungeon's `inventory` in week 1 was a list:
 ```python
 backpack = ["torch", "rope", "bread"]
 ```

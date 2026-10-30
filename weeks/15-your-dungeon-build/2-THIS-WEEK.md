@@ -2,7 +2,7 @@
 
 **Get there:** from the main folder, type `cd weeks/14-your-dungeon-design`
 
-**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "15.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+**Save as you go:** commit every time you try something, even when it's broken: `git add -A`, then `git commit -m "15.2 try: what you changed"`. `git push` at the end of every session. See [GIT.md](../../GIT.md).
 
 Keep working in `weeks/14-your-dungeon-design/my_dungeon.py`. Run your game after every change.
 Change `[ ]` to `[x]` when a step works.
@@ -43,5 +43,5 @@ Fix what you found in 15.5. Check every description for typos. Add a title scree
 ---
 
 ## 📬 Hand it in
-Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Done with the week? `git push`, then write **ready** as a comment on your pull request (step 4 in [GIT.md](../../GIT.md)).
 Your mentor reviews it, and you merge it together at your next evening.

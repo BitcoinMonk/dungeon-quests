@@ -8,7 +8,7 @@
 
 ## Tonight's idea
 
-Until now your programs just talked. Tonight they **listen**.
+The dungeon in week 1 listened to you: every command you typed went through `input()`. Tonight you use it yourself.
 `input()` stops the program, waits for the player to type something, and gives you what they typed.
 
 ## Steps

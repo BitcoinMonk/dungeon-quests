@@ -80,7 +80,7 @@ git commit -m "1.0 new opening line"
 - `git diff` shows exactly which lines changed: red is old, green is new. Press **q** to get out.
 - `git add -A` picks up all your changes, and `git commit` saves them with a message.
 
-From now on, commit after every quest.
+From now on, commit **every time you try something**, even when it's broken. Broken commits are fine on your branch: they show how you got there.
 
 ## New words
 

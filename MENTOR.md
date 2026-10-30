@@ -10,7 +10,10 @@ A ruleset on `master` (**Settings → Rules**) means his work only gets in throu
 ## Each week on GitHub
 
 He hands in each week as a **pull request** (branch `week-02` and so on; the routine is in [GIT.md](GIT.md)).
+He commits every attempt, broken ones included, and pushes after each session, so the PR fills up during the week.
 Before your evening, look over his PR on GitHub (**Files changed** tab) and leave a comment or two: one thing he did well, one question or fix. He answers by committing and pushing again.
+The **Commits** tab is the real record of how he thinks. Ask Claude to read it and tell you where he got stuck and what to go over again.
+PRs merge with a merge commit only (squash and rebase are off), so every attempt stays in `master`'s history.
 
 ## Every evening (about 90 minutes)
 

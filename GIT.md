@@ -21,25 +21,30 @@ git checkout -b week-02
 ```
 Use the new week's number. `git pull` brings in last week's merged work and anything new your mentor added.
 
-### 2. After each quest: commit
+### 2. Every time you try something: commit
 ```
 git status
 git diff
 git add -A
-git commit -m "2.3 hero drinks a potion"
+git commit -m "2.3 try: potion adds 10 health"
 ```
 - `git status`: which files changed, and which branch you're on (first line).
 - `git diff`: exactly what changed. Red is old, green is new. Press **q** to get out.
-- Start the message with the quest number and say what you did.
+- Start the message with the quest number and say what you tried. If it didn't work, say so: `"2.3 try: health went down instead??"`.
 
-### 3. Hand it in (before your next evening)
+**Commit broken code too.** Every attempt, not just the one that worked. Your mentor learns the most from the tries that didn't work, and you never lose anything.
+
+### 3. End of every session: push
 ```
 git push
 ```
 The first push may open a browser to sign in to GitHub.
-Then open the repo on GitHub. A yellow bar says your branch had recent pushes: click **Compare & pull request**, give it a title like `Week 2`, and click **Create pull request**.
+**The first push of the week only:** open the repo on GitHub. A yellow bar says your branch had recent pushes: click **Compare & pull request**, give it a title like `Week 2`, and click **Create pull request**. After that, every push adds to the same pull request by itself.
 
-Your mentor reviews it. If they leave comments, fix things, commit, and `git push` again: the pull request updates by itself.
+### 4. Hand it in (before your next evening)
+Push one last time, then write **ready** as a comment on your pull request.
+
+Your mentor reviews it. If they leave comments, fix things, commit, and `git push` again.
 **Don't merge it yourself.** You merge it together at your next evening, after the ready check.
 
 ## Oops

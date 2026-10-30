@@ -2,7 +2,7 @@
 
 **Get there:** from the main folder, type `cd weeks/05-more-decisions`
 
-**Save as you go:** after each quest, commit it: `git add -A`, then `git commit -m "5.2 what you did"` with the quest number. See [GIT.md](../../GIT.md).
+**Save as you go:** commit every time you try something, even when it's broken: `git add -A`, then `git commit -m "5.2 try: what you changed"`. `git push` at the end of every session. See [GIT.md](../../GIT.md).
 
 Do these in order. One or two a day. Change `[ ]` to `[x]` when a quest is done.
 
@@ -46,5 +46,5 @@ But nobody named "Gerald" gets in, ever. (Gerald knows what he did.)
 ---
 
 ## 📬 Hand it in
-Before your next evening: `git push`, then open a pull request on GitHub (step 3 in [GIT.md](../../GIT.md)).
+Done with the week? `git push`, then write **ready** as a comment on your pull request (step 4 in [GIT.md](../../GIT.md)).
 Your mentor reviews it, and you merge it together at your next evening.
